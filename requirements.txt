@@ -6,3 +6,4 @@ nltk
 regex
 sklearn
 ipykernel
+gunicorn
