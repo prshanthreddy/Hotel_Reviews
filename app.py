@@ -23,4 +23,4 @@ def predict_api():
     return render_template('home.html',prediction=output)
     
 if __name__=="__main":
-    app.run(debug=False,host='0.0.0.0')
+    app.run(debug=False)
