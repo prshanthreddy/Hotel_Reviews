@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="../static/styles.css">
+	<link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+	
+</head>
+<body>
+	<header>
+		<div class="container">
+		<div id="brandname">
+		<center><b>	Machine Learning App with Flask</b></center>
+		</div><br>
+		<center><h2>Exageration in fake vs. authentic reviews for luxury and budget hotels. </h2></center>
+		
+	</div>
+	</header>
+<center>
+	<div class="ml-container">
+
+		<form action="{{ url_for('predict_api')}}" method="POST">
+		<p>Give us your Review <br> <br>We predict it Fake or Authentic</p><br>
+
+		<textarea name="message" rows="11" cols="100"></textarea>
+		<br/>
+            <br>
+            <br>
+		<input type="submit" class="btn-info" value="Predict">
+		
+	</form>
+    <br>
+	<p>We Predicted the Review is {{prediction}}</p>
+	</div></center>
+</body>
+</html>

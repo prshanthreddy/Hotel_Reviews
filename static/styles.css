@@ -1,0 +1,32 @@
+body{
+    background-color:antiquewhite;
+    font-style: normal;
+    text-decoration: solid;
+}
+#brandname{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:skyblue;
+    border:#000000 3px solid;
+}
+p{
+    font-size: larger;
+    font-weight: bold;
+}
+.btn-info{
+    background-color: green;
+    height: 40px;
+    width:80px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+btn-info:hover {
+    background-color:white;
+    color: black;
+}
