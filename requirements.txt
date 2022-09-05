@@ -1,0 +1,6 @@
+Flask
+sklearn
+textblob
+pandas
+nltk
+regex
