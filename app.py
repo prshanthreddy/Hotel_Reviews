@@ -1,7 +1,6 @@
 import pickle
-from flask import Flask,request,app,render_template
+from flask import Flask,request,render_template,url_for
 import pandas as pd
-import numpy as np
 
 app=Flask(__name__)
 # load the model
