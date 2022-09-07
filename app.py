@@ -1,6 +1,5 @@
-import imp
 import pickle
-from flask import Flask,request,app,jsonify,url_for,render_template
+from flask import Flask,request,app,render_template
 import pandas as pd
 import numpy as np
 
@@ -22,5 +21,5 @@ def predict_api():
         output=mlmodel.predict(new_data)
     return render_template('home.html',prediction=output)
     
-if __name__=="__main":
-    app.run(debug=False)
+if __name__=="__main__":
+    app.run(debug=True)
