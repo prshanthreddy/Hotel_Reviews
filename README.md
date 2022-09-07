@@ -1,4 +1,4 @@
-# Exageration in fake vs. authentic reviews for luxury and budget hotels.
+# Exaggeration in fake vs. authentic reviews for luxury and budget hotels.
 
 
 ## Software and tools required
