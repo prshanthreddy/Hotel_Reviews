@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import numpy as np
 st.title("Welcome to Hotel Review Prediction App")
-st.header("Enter your review below")
+st.header("Enter the  review below, We will predict whether it is authentic or fake")
 review = st.text_area("Review")
 mlmodel=pickle.load(open('mlmodel.pickle','rb'))
 vectorizer=pickle.load(open('vectorizer.pickle','rb'))
